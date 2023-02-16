@@ -1,0 +1,4 @@
+if impl(ghc >= 9.4)
+  packages: ./build94/
+if impl(ghc < 9.4)
+  packages: ./build92/
